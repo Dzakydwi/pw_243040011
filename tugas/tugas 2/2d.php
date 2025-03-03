@@ -25,7 +25,7 @@
     }
 
     .warnahitam {
-        background-color: #343434;
+        background-color: #343433;
         color: white;
     }
 
