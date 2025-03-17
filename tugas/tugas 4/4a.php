@@ -1,4 +1,18 @@
 <?php
-$kata = ["depanmu ", "diciptakan oleh apa yang kau ", "kerjakan hari ini, ", "bukan ",  "Masa ", "besok "];
+$list = ["epan", "cipta", "akan", "u", "asa", "esok"];
 
-echo $kata[4] . $kata[0] . $kata[1] . $kata[2] . $kata[3] . $kata[5];
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p> M<?php echo $list[4]; ?> d<?php echo $list[0]; ?>mu di<?php echo $list[1]; ?>kan oleh apa yang kau kerj<?php echo $list[2]; ?> hari ini. b<?php echo $list[3]; ?>kan b<?php echo $list[5]; ?>
+</body>
+
+</html>
